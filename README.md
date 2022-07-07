@@ -1,8 +1,8 @@
-# fpctoabc
+# fpc2abc
 Multiple utilities to automate the conversion of fpc libraries to PascalABC(.NET), written in PascalABC
 
 # Features <br>
-For now, the utility can only detect stdcall and cdecl and partially generate dynamic libraries and (in the future) wrapper PascalABC files. <br>
+For now, the utility can only detect stdcall and cdecl functions and partially generate dynamic libraries and (in the future) wrapper PascalABC files for them. <br>
 In the future, this utility will be able to:<br>
 - unwrap(at least some cases of) variant records  //<-initial purpose of the project actually
 - work with NativeInt and PChar
@@ -18,4 +18,4 @@ Only PascalABC is supported.
 Generated exe's should work on non-windows OSes wit mono, however, that was not tested yet
 <br>
 <br>
-abctofpc anyone?
+abc2fpc anyone?
