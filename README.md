@@ -1,4 +1,4 @@
-# abctofpc
+# fpctoabc
 Multiple utilities to automate the conversion of fpc libraries to PascalABC(.NET)
 
 For now, the utility can only detect stdcall and cdecl and partially generate dynamic libraries and (in the future) wrapper PascalABC files. <br>
