@@ -12,10 +12,10 @@ In the future, this utility will be able to:<br>
 This is a really long-term project that actually should have been a parser, but I hope that reading strings will suffice 
 
 # Compiling
-Only PascalABC is supported. 
+Only PascalABC is supported. To convert cdecl and stdcall functions to dlls, you will need the fpc compiler(for example the one which comes with Lazarus). There will be an option to just cut the calling convention out however. 
 
 # Using
-Generated exe's should work on non-windows OSes wit mono, however, that was not tested yet
+Generated exe's should work on non-windows OSes wit mono, however, that was not tested yet.
 <br>
 <br>
 abc2fpc anyone?
